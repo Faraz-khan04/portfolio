@@ -1,0 +1,5 @@
+body{max-width:44rem;margin:0 auto;padding:2.5rem 1.25rem 4rem;background:#151515;color:#EFEBE2;
+     font:16px/1.65 system-ui,-apple-system,Segoe UI,sans-serif}
+h1{font-size:2rem;line-height:1.1;margin:0 0 .25rem} h2{margin:2.25rem 0 .5rem;font-size:1.15rem;color:#C7503A}
+a{color:#C7503A} .meta{color:#8D897F;font-size:.9rem} ul{padding-left:1.1rem} li{margin:.35rem 0}
+code{background:#1D1D1D;padding:.1rem .35rem;border-radius:3px;font-size:.9em}

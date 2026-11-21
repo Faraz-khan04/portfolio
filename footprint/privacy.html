@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Footprint: Privacy Policy</title>
+<link rel="stylesheet" href="privacy.css">
+<meta name="robots" content="index,follow">
+</head>
+<body>
+<h1>Privacy Policy</h1>
+<p class="meta">Footprint for Android, published on Google Play by Hanito (Mohd Faraz Khan) · Last updated: 21 October 2026</p>
+
+<p><strong>Footprint does not collect, transmit, or share any personal data.</strong> The app is not granted
+the Android internet permission, so it is technically unable to send anything off your device.</p>
+
+<h2>What the app records on your device</h2>
+<ul>
+  <li>Which apps you use and for how long, and when you unlock your phone.</li>
+  <li>When your screen turns on and off, and which apps send you notifications.</li>
+  <li>Your step count, read from your phone's step-counter sensor and, where available, from the hourly
+    step totals that Google Play services records on your phone (its on-device step recording). Footprint
+    only reads these totals locally; it does not use a Google account and does not send them anywhere.</li>
+  <li>The name, category and icon of the apps you use, so the dashboard can show them.</li>
+  <li>Your own answers to the "was that worth it?" question, and the nudge times worked out from them.</li>
+  <li>If you set app rules: the rules themselves, your answers when an app asks why you're opening it, and
+      whether you closed the app or took extra time on each rule screen.</li>
+  <li>If you use the study timer: each session's subject, start and end time.</li>
+  <li>If you walk for extra time on a rule screen: that you did, using the step sensor while that screen is open.</li>
+  <li>If you use Future You: your goal (its name, how many parts are left, an optional date and your time
+      estimate) and the short notes you write to yourself. They stay on the phone and are deleted with
+      "Delete everything".</li>
+  <li>If you turn on Reels and Shorts blocking: a count of how often a short-video feed was closed, and which app it was in.</li>
+</ul>
+<p>The app does not read the contents of notifications, messages, or anything on your screen. It does not
+use your camera, microphone, location, contacts, or accounts.</p>
+
+<h2>Where it is stored</h2>
+<p>In the app's private storage on your phone, which other apps cannot read. Events older than 90 days are
+deleted automatically. Backups and device-to-device transfer are disabled for this data.</p>
+
+<h2>What is shared</h2>
+<p>Nothing, unless you choose it. The "weekly receipt" is an image you create and share yourself, through
+Android's normal share sheet, to an app you pick. "Export" writes a file to a location you choose.</p>
+
+<h2>Permissions and why</h2>
+<ul>
+  <li><strong>Usage access</strong> (<code>PACKAGE_USAGE_STATS</code>): app usage, unlocks, screen and notification
+      events. Without it there is nothing to show.</li>
+  <li><strong>Physical activity</strong> (<code>ACTIVITY_RECOGNITION</code>): reading the step-counter sensor and Google Play services' on-device step totals.
+      Optional; the rest works without it.</li>
+  <li><strong>Notifications</strong> (<code>POST_NOTIFICATIONS</code>): to send you a nudge before a moment you told
+      the app you regret, a reminder to review a few sessions, and a note when a study session ends. Optional.</li>
+  <li><strong>Display over other apps</strong> (<code>SYSTEM_ALERT_WINDOW</code>): to show the full-screen page over an
+      app when a rule you set is reached, or while a study session you started is running. Optional; only needed for app rules.</li>
+  <li><strong>Foreground service</strong> (<code>FOREGROUND_SERVICE</code>, <code>FOREGROUND_SERVICE_SPECIAL_USE</code>) and
+      <strong>start at boot</strong> (<code>RECEIVE_BOOT_COMPLETED</code>): keep your app rules and study timer working,
+      shown as an ongoing notification. It runs only while you have rules set or a session running.</li>
+  <li><strong>View network connections</strong> (<code>ACCESS_NETWORK_STATE</code>) and <strong>keep awake</strong>
+      (<code>WAKE_LOCK</code>): added by Android's own background-task library (WorkManager), which the app uses to
+      run its 15-minute update. It can only tell whether a connection exists; without the internet permission the
+      app still cannot send or receive anything.</li>
+</ul>
+
+<h2>Reels and Shorts blocking (Accessibility service)</h2>
+<p>Some versions of Footprint can close YouTube Shorts, Instagram Reels and Snapchat Spotlight for you. This uses
+Android's Accessibility service, which you turn on yourself after reading an explanation in the app and agreeing to it.
+It receives information only from those three apps, only while they are on screen. It looks at the names of the
+screen's parts (such as "reel player") and which tab is selected, and presses Back when a feed you blocked opens.
+It does not read messages, captions, comments or anything you type. Nothing it sees is stored, apart from a count
+of how often it closed a feed, and nothing is sent anywhere. You can turn it off at any time in Android's
+Accessibility settings.</p>
+
+<h2>Your control</h2>
+<p>In Settings you can hide any app, which stops it being recorded and deletes its history immediately; turn off
+step or notification collection; and choose how long history is kept, from 30 days to a year.</p>
+<p>"Export JSON" and "Export CSV" give you a copy of everything. "Delete everything" removes all stored
+events, app information and settings immediately. Uninstalling the app also removes all of it.</p>
+
+<h2>Children</h2>
+<p>Footprint is not directed at children under 13 and collects no data from anyone.</p>
+
+<h2>Changes</h2>
+<p>If a future version ever adds anything that leaves your device, this policy will be updated first, and that
+feature will stay off until you turn it on.</p>
+
+<h2>Contact</h2>
+<p>Mohd Faraz Khan: <a href="mailto:hanitodev@gmail.com">hanitodev@gmail.com</a></p>
+</body>
+</html>

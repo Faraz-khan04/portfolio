@@ -1,0 +1,6 @@
+# Found a vulnerability in this site or one of my projects? Please report it privately first.
+Contact: mailto:khan.faraz.fk.2424@gmail.com
+Expires: 2027-09-19T00:00:00.000Z
+Preferred-Languages: en, hi
+Canonical: https://mohdfarazkhan.pages.dev/.well-known/security.txt
+Policy: https://mohdfarazkhan.pages.dev/terms.html#security
